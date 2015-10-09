@@ -15,7 +15,9 @@
 //
 //---------------------------------------------------------------------
 
-var qrcode = function() {
+var QRCodeGenerator = QRCodeGenerator || {};
+
+var QRCodeGenerator.qrcode = function() {
 
   //---------------------------------------------------------------------
   // qrcode
